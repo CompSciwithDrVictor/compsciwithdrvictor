@@ -12,7 +12,7 @@ title                    : "CompSci with Dr. Victor"
 title_separator          : "-"
 name                     : &name "Victor"
 description              : &description "A website for keen learners!"
-url                      : https://compsciwithdrvictor.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://compsciwithdrvictor.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
@@ -24,7 +24,7 @@ author:
   avatar           : "SpectacleMe_2.jpg"
   name             : "The doctor is here!"
   pronouns         : "he/his" # example: "she/her"  
-  bio              : "I love designing & evaluating technologies that mediate communications between humans and also computers, resulting in improved user experience and user empowerment"
+  bio              : "I love designing & evaluating technologies that mediate communications between humans and also computers, resulting in improved user experience and user empowerment."
   location         : "Earth"
   employer         : #
   uri              : # URL
@@ -70,7 +70,7 @@ author:
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : @CompSciwithDrVictor
+  youtube          : CompSciwithDrVictor
   zhihu            : # URL
 
 # Publication Category - The following the list of publication categories and their headings
