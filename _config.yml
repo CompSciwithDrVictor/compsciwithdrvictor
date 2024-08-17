@@ -23,8 +23,8 @@ author:
   # Biographic information
   avatar           : "SpectacleMe_2.jpg"
   name             : "The doctor is here!"
-  pronouns         : "he/his" # example: "she/her"  
-  bio              : "I love designing & evaluating technologies that mediate communications between humans and also computers, resulting in improved user experience and user empowerment."
+  pronouns         : "He/Him" # example: "she/her"  
+  bio              : "I love designing and evaluating technologies that mediate communications between humans and also computers, resulting in improved user experience and user empowerment."
   location         : "Earth"
   employer         : #
   uri              : # URL
@@ -101,7 +101,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
+  branch                 : "master" # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
@@ -218,14 +218,20 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+  projects: # based on portfolio
+    output: true
+    permalink: /:collection/:path/
   talks:
+    output: true
+    permalink: /:collection/:path/
+  how-tos: # based on how-tos
     output: true
     permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
 defaults:
-  # _posts
+  # _posts (Blog Posts)
   - scope:
       path: ""
       type: posts
@@ -243,7 +249,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _teaching (Teaching)
   - scope:
       path: ""
       type: teaching
@@ -252,7 +258,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _publications
+  # _publications (Publications)
   - scope:
       path: ""
       type: publications
@@ -261,7 +267,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _portfolio (Portfolio, hidden)
   - scope:
       path: ""
       type: portfolio
@@ -270,10 +276,27 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _talks
+  # _projects (Projects, created based on _portfolio)
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _talks (Talks, hidden)
   - scope:
       path: ""
       type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
+  # _how-tos (How-Tos, created based on _talks)
+  - scope:
+      path: ""
+      type: how-tos
     values:
       layout: talk
       author_profile: true
@@ -290,7 +313,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Vancouver # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

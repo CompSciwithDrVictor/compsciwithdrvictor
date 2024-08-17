@@ -7,6 +7,8 @@
    ========================================================================== */
 
 .sidebar {
+  background-color: gainsboro;
+
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);
 
@@ -33,7 +35,8 @@
 
   @include breakpoint($x-large) {
     max-width: $sidebar-link-max-width;
-    padding-right: 0;
+    padding-left: 8px;
+    padding-right: 8px;
   }
 
   h2, h3, h4, h5, h6 {
