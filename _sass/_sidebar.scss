@@ -8,6 +8,7 @@
 
 .sidebar {
   background-color: gainsboro;
+  padding: 8px; //used when the screen is narrow and sidebar becomes on top (mobile view)
 
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);
