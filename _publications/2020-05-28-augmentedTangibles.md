@@ -2,7 +2,7 @@
 title: "Techniques for Augmented-Tangibles on Mobile Devices for Early Childhood Learning"
 collection: publications
 category: conferences
-permalink: /publication/2020-06-21-augmentedTangibles
+permalink: /publications/2020-06-21-augmentedTangibles
 excerpt: 'This paper presents three techniques for creating a hybrid tangible-augmented reality enabling technology platform for early childhood learning: visual marker-based, computer-vision & machine learning, and capacitive touches.'
 date: 2020-06-21
 venue: 'Interaction Design and Children Conference'
