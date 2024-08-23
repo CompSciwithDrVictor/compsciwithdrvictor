@@ -33,7 +33,7 @@ A Little Fun Script to Tell Time
 ------
 <font id="timeString">It's now <font color="#afafaf">zero</font> minute until <font color="#afafaf">zero</font> in the midnight.</font>
 <script>
-//reference: rossgoodwin.com/clock
+/*reference: rossgoodwin.com/clock*/
 
 var numToText = 
 [ "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen", "twenty" ];
@@ -46,19 +46,19 @@ function startTime() {
         var h = today.getHours();
         var m = today.getMinutes();
         document.getElementById("timeString").innerHTML = "It\'s now ";
-        if (m === 0) {//it's the o'clock
+        if (m === 0) {/*it's the o'clock*/
                 document.getElementById("timeString").innerHTML += ctt0(h, m);
         } else if (m > 0 && m < 15) {
                 document.getElementById("timeString").innerHTML += ctt1(h, m);
-        } else if (m === 15) {//it's the quarter-past
+        } else if (m === 15) {/*it's the quarter-past*/
                 document.getElementById("timeString").innerHTML += ctt2(h, m);
         } else if (m > 15 && m < 30) {
                 document.getElementById("timeString").innerHTML += ctt3(h, m);
-        } else if (m === 30) {//it's the half-past
+        } else if (m === 30) {/*it's the half-past*/
                 document.getElementById("timeString").innerHTML += ctt4(h, m);
         } else if (m > 30 && m < 45) {
                 document.getElementById("timeString").innerHTML += ctt3(h, m);
-        } else if (m === 45) {//it's the quarter-to
+        } else if (m === 45) {/*it's the quarter-to*/
                 document.getElementById("timeString").innerHTML += ctt6(h, m);
         } else if (m > 45 && m <= 49) {
                 document.getElementById("timeString").innerHTML += ctt3(h, m);
@@ -68,7 +68,7 @@ function startTime() {
         document.getElementById("timeString").innerHTML += ".";
 }
 
-//the o'clock case
+/*the o'clock case*/
 function ctt0(hour, minute) {
         var timeStr = "";
 
@@ -84,7 +84,7 @@ function ctt0(hour, minute) {
                 timeStr += fontTagFront + numToText[hr] + fontTagBack;
         }
 
-        //neither midnight nor noon
+        /*neither midnight nor noon*/
         if (hour != 0 && hour != 12) {
                 timeStr += " o\'clock";
                 
@@ -100,11 +100,11 @@ function ctt0(hour, minute) {
         return timeStr;
 }
 
-//the x-minutes-past-hour case
+/*the x-minutes-past-hour case*/
 function ctt1(hour, minute) {
         var timeStr = "";
         
-        //timeStr += minute;
+        /*timeStr += minute;*/
         if (minute <= 20) {
                 timeStr += fontTagFront + numToText[minute] + fontTagBack;
          } else if (minute < 30) {
@@ -123,9 +123,9 @@ function ctt1(hour, minute) {
                 timeStr += fontTagFront + "fifty-"+numToText[minute%10] + fontTagBack;
          }
 
-        if (minute === 1) {//singular
+        if (minute === 1) {/*singular*/
                 timeStr += " minute";
-        } else {//plural
+        } else {/*plural*/
                 timeStr += " minutes";
         }
 
@@ -135,9 +135,9 @@ function ctt1(hour, minute) {
                 timeStr += " after";
         }
 
-        if (hour === 0) {//midnight
+        if (hour === 0) {/*midnight*/
                 timeStr += " midnight";
-        } else if (hour === 12) {//noon
+        } else if (hour === 12) {/*noon*/
                 timeStr += " noon";
         } else {
                 var hr = hour;
@@ -160,7 +160,7 @@ function ctt1(hour, minute) {
         return timeStr;
 }
 
-//the quarter-past-hour case
+/*the quarter-past-hour case*/
 function ctt2(hour, minute) {
         var timeStr = "";
 
@@ -202,7 +202,7 @@ function ctt2(hour, minute) {
         return timeStr;
 }
 
-//the hour-minute case
+/*the hour-minute case*/
 function ctt3(hour, minute) {
         var timeStr = "";
 
@@ -255,7 +255,7 @@ function ctt3(hour, minute) {
         return timeStr;
 }
 
-//the half-past case
+/*the half-past case*/
 function ctt4(hour, minute) {
         var timeStr = "";
 
@@ -291,7 +291,7 @@ function ctt4(hour, minute) {
         return timeStr;
 }
 
-//the quater-to-hour case
+/*the quater-to-hour case*/
 function ctt6(hour, minute) {
         var timeStr = "";
 
@@ -328,7 +328,7 @@ function ctt6(hour, minute) {
         return timeStr;
 }
 
-//the x-minutes-to-hour case
+/*the x-minutes-to-hour case*/
 function ctt8(hour, minute) {
         var timeStr = "";
 
@@ -371,7 +371,7 @@ function ctt8(hour, minute) {
         return timeStr;
 }
 
-//iterate and update time if the minute is changed
+/*iterate and update time if the minute is changed*/
 function checkMinute() {
         var minute = new Date().getMinutes();
         if (minute != currentMinute) {
@@ -380,12 +380,12 @@ function checkMinute() {
         }
 }
 
-//set the minute when the page loads
+/*set the minute when the page loads*/
 var currentMinute = new Date().getMinutes();
 
 (function() {
         startTime();
-        setInterval(checkMinute, 5000); //run every 5 sec
+        setInterval(checkMinute, 5000); /*run every 5 sec*/
 } ());
 
 </script>
