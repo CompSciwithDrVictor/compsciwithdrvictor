@@ -144,10 +144,11 @@ social:
 
 
 # Analytics
+# for more details here is a good resource: https://desiredpersona.com/google-analytics-jekyll/
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               :  "google-analytics-4" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
-    tracking_id          :
+    tracking_id          : G-D6G3D40E47
 
 
 # Reading Files
