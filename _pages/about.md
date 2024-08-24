@@ -385,7 +385,7 @@ var currentMinute = new Date().getMinutes();
 
 (function() {
         startTime();
-        setInterval(checkMinute, 5000); /*run every 5 sec*/
+        setInterval(checkMinute, 30000); /*run every 30 secs*/
 } ());
 
 </script>
