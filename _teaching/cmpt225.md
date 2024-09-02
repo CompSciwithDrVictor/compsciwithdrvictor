@@ -44,8 +44,8 @@ Course Schedule
 | Week  | Topics | Readings/Watchings[^1]                                       |
 | ----- | ------ | ------------------------------------------------------------ |
 | 1     | {::nomarkdown}Course intro<br />C++ primer<ul><li>Basic elements & expressions</li></ul>Coding environments{:/} | DSA-C++ Book: Ch. 1.1, 1.2 |
-| 2     | C basics {::nomarkdown}<ul><li>Variables</li><li>Loops</li><li>Functions</li><li>I/O</li></ul>{:/} | DSA-C++ Book: Ch. 1.3, 1.4 |
-| 3     | C with OOP {::nomarkdown}<ul><li>Classes</li><li>Inheritance</li><li>Operator overloading</li><li>Libraries & templates</li></ul>{:/} | DSA-C++ Book: Ch. 1.5-1.8, Ch. 2.1-2.3 |
+| 2     | C++ basics {::nomarkdown}<ul><li>Variables</li><li>Loops</li><li>Functions</li><li>I/O</li></ul>{:/} | DSA-C++ Book: Ch. 1.3, 1.4 |
+| 3     | C++ with OOP {::nomarkdown}<ul><li>Classes</li><li>Inheritance</li><li>Operator overloading</li><li>Libraries & templates</li></ul>{:/} | DSA-C++ Book: Ch. 1.5-1.8, Ch. 2.1-2.3 |
 | 4     | {::nomarkdown}Basic data structures<ul><li>Stacks & queues</li><li>Linked lists (singly & doubly)</li></ul>Execution Stacks & Recursions{:/} | DSA-C++ Book: Ch. 5.1-5.2, Ch. 3.2-3.3 |
 | 5     | Basic algorithms (Part 1) {::nomarkdown}<ul><li>Big-O notation</li><li>Master theorem</li><li>Faster integer multiplication</li></ul>{:/} | DSA-C++ Book: Ch. 4.1-4.2 |
 | 6     | Basic algorithms (Part 2) {::nomarkdown}<ul><li>Sorting algorithms</li><li>Binary Trees & Binary Search Trees</li></ul>{:/} | DSA-C++ Book: Ch. 11.1-11.3 (Sorting), Ch. 7.1-7.3 (BTs & BSTs) |

@@ -8,7 +8,7 @@ date: 2023-01-01
 location: "Burnaby/Surrey, BC, Canada"
 ---
 
-An continuation from [CMPT 120](/_teaching/cmpt120.md) on programming and some CS-related concepts (e.g., history, problem-solving). Introduces students to some common data structures (e.g., stacks, queues, linked lists, trees) and algorithms (e.g., Mergesort, Quicksort). C and C++ are the programming languages of choice.
+An continuation from [CMPT 120](/teaching/cmpt120) on programming and some CS-related concepts (e.g., history, problem-solving). Introduces students to some common data structures (e.g., stacks, queues, linked lists, trees) and algorithms (e.g., Mergesort, Quicksort). C and C++ are the programming languages of choice.
 
 **This is for reference only. For actual outline refer to the course webpage at Canvas (our LMS).**
 Content is subject to change (plus I often update it). This is the schedule I used for Spring 2023.
