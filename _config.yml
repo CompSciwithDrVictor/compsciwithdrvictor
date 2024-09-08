@@ -21,9 +21,9 @@ repository               : "compsciwithdrvictor/compsciwithdrvictor.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "SpectacleMe_2.jpg"
-  name             : "The doctor is here!"
-  pronouns         : "He/Him" # example: "she/her"  
+  avatar           : "meTeaching.jpg"
+  name             : "CS is fun!"
+  pronouns         : "He/Him/His" # example: "she/her"  
   bio              : "I love designing and evaluating technologies that mediate communications between humans and also computers, resulting in improved user experience and user empowerment."
   location         : "Earth"
   employer         : #

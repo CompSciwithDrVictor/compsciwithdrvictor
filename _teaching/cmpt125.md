@@ -46,12 +46,12 @@ Course Schedule
 | 6     | Basic algorithms & data structures (Part 2) {::nomarkdown}<ul><li>Sorting algorithms</li></ul>{:/}<br />Abstract data types| Learn more about sorting with visualization {::nomarkdown}[<a href="https://visualgo.net/bn/sorting">LINK</a>]{:/} |
 | 7     | Basic algorithms & data structures (Part 3) {::nomarkdown}<ul><li>Stacks</li></li>Queues</li></ul>{:/} | External readings: {::nomarkdown}<ul><li><a href="https://www.programiz.com/dsa/stack">Stacks</a></li><li><a href="https://www.programiz.com/dsa/queue">Queues</a> (note that their use of the rear index is different from the lectures)</li><li><a href="https://www.programiz.com/dsa/linked-list">Linked lists</a></li></ul>{:/} |
 | 8     | Reading break | - |
-| 9     | Basic algorithms & data structures (Part 4) {::nomarkdown}<ul><li>Linked lists</li></ul>{:/}<br />Recursion revisited | - |
+| 9     | Basic algorithms & data structures (Part 4) {::nomarkdown}<ul><li>Linked lists</li></ul>Recursion revisited{:/} | - |
 | 10    | Basic algorithms & data structures (Part 5) {::nomarkdown}<ul><li>Intro to graphs & trees</li><li>Tree traversals & operations</li></ul>{:/} | Additional references to {::nomarkdown}<a href="https://www.programiz.com/dsa/trees">Trees</a>{:/} |
 | 11    | Basic algorithms & data structures (Part 6) {::nomarkdown}<ul><li>Binary Search Trees (BSTs)</li></ul>{:/} | Learn more about BSTs with visualization {::nomarkdown}[<a href="https://visualgo.net/en/bst">LINK</a>]{:/} |
 | 12    | Intro to C++ (Part 1) {::nomarkdown}<ul><li>cin/cout</li><li>strings</li><li>function overloading</li><li>templates</li></ul>{:/} | External readings: {::nomarkdown}<ul><li><a href="https://www.programiz.com/cpp-programming/input-output">cin/cout</a></li><li><a href="https://www.programiz.com/cpp-programming/strings">strings</a></li><li><a href="https://www.programiz.com/cpp-programming/function-overloading">function overloading</a></li><li><a href="https://www.programiz.com/cpp-programming/templates">tempaltes</a></li></ul>{:/} |
 | 13    | Intro to C++ (Part 2) {::nomarkdown}<ul><li>Pass-by-reference functions</li><li>Operator overloading</li><li>Exception handling</li><li>Intro to OOP</li></ul>{:/} | Additional references: {::nomarkdown}<ul><li><a href="https://www.programiz.com/cpp-programming/constructors">constructors</a></li><li><a href="https://en.cppreference.com/w/cpp/language/operators">operator overloading</a></li></ul>{:/} |
-| 14    | Intro to C++ (Part 3) {::nomarkdown}<ul><li>Object-Oriented Design (OOD)</li><li>Examples in C++</li></ul><br />Review{:/} | - |
+| 14    | Intro to C++ (Part 3) {::nomarkdown}<ul><li>Object-Oriented Design (OOD)</li><li>Examples in C++</li></ul>Review{:/} | - |
 | ??    | Final Exam   | - |
 
 [^1]: References in Topics/Readings are for reference only. If there is any topic/concept that is in conflict between class slides and any of these references, what is taught in the classes will be used.
