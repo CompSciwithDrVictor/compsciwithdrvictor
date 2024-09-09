@@ -27,7 +27,7 @@ Why This Website
 ======
 The main motivation for me to create this website is that I realized many of the course materials I create become inaccessible after the term ends, due to the set up of the LMS of my University. And I want my students (and also those who are interested) to be able to access in particular the supplementary reading anytime. My goal (at least for now) is not to put everything here, as there are some current-student-only materials that I want to keep at the LMS. Instead, I want to put something that I want my students to continue to explore after the courses to explore more and/or refer back to some of the topics mentioned in the courses.
 
-GitHub Pages seem to be a good place to do this because it's more flexible and it many ways easier to setup/maintain. Also, many academics and developers are moving their content here, which means a bigger community and better support. Moreover, this is the first time I set up a website like this, so it'll be a fun experience for me too.
+GitHub Pages seem to be a good place to do this because it's more flexible and in many ways easier to setup/maintain. Also, many academics and developers are moving their content here, which means a bigger community and better support. Moreover, this is the first time I set up a website like this, so it'll be a fun experience for me too.
 
 A Little Fun Script to Tell Time
 ------

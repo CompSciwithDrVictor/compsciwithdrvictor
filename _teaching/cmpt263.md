@@ -8,7 +8,7 @@ date: 2024-05-01
 location: "Burnaby/Surrey, BC, Canada"
 ---
 
-This course teaches an important area of CS that people often overlook -- creating computational artifacts that are useful, usable, and meaningful for human users. This is a relatively new course but many post-secondary institutions, e.g., UToronto, UWaterloo, and StanfordU, are already having similar courses in their CS program.
+This course teaches an important area of CS that people often overlook -- creating computational artifacts that are useful, usable, and meaningful for human users. This is a relatively new course but many post-secondary institutions, e.g., UToronto, UWaterloo, UBC, and StanfordU, are already having similar courses in their CS program.
 
 It is a technical course but not on the programming side. Students are expected to have some programming experience but this course focuses on techniques and methodologies in creating user interfaces that better support human use. Students will go through the whole User-Centered Design process to design, implement, and evaluate computer user interfaces. My goal is to train students to have an eye on the design aspects of computer systems so they not only just work but also good in usability.
 
